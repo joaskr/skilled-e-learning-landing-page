@@ -151,7 +151,7 @@ h2 {
 }
 
 .card img {
-  top: 23px;
+  top: 28px;
   position: relative;
   margin-left: 1.75rem;
 }
@@ -232,7 +232,13 @@ footer img {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 950px) {
+  header {
+    background-position-x: 60vw;
+  }
+}
+
+@media screen and (min-width: 1440px) {
   body {
     font-size: 1.13rem;
   }
@@ -288,15 +294,17 @@ footer img {
 
   .main-header {
     align-self: end;
-    height: 232px;
+    height: 322px;
     padding: 4rem 2rem 8.625rem 2rem;
+    box-sizing: border-box;
   }
 
   .card-content {
-    height: 346px;
+    min-height: 322px;
     align-self: flex-end;
     justify-content: flex-start;
     gap: 2rem;
+    box-sizing: border-box;
   }
 
   footer {
